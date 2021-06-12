@@ -11,9 +11,58 @@ repositories {
 }
 
 dependencies {
+    //Junit
     testImplementation 'junit:junit:4.11'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine:5.1.0'
+
+    //spring
+    implementation group: 'org.springframework', name: 'spring-context', version: '5.0.7.RELEASE'
+    implementation group: 'org.springframework', name: 'spring-test', version: '5.0.7.RELEASE'
+    implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.0.7.RELEASE'
+
+    //lombok
+    compileOnly 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+    testCompileOnly 'org.projectlombok:lombok:1.18.20'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
+
+    //log4j
+    implementation group: 'log4j', name: 'log4j', version: '1.2.17'
+
+    // hikari
+    implementation 'com.zaxxer:HikariCP:4.0.3'
+
+    // mysql
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.23'
+
+    // mybatis
+    // https://mvnrepository.com/artifact/org.mybatis/mybatis
+    implementation group: 'org.mybatis', name: 'mybatis', version: '3.5.7'
+
+    // mybatis spring
+    // https://mvnrepository.com/artifact/org.mybatis/mybatis-spring
+    implementation group: 'org.mybatis', name: 'mybatis-spring', version: '2.0.6'
+
+    // spring-tx
+    // https://mvnrepository.com/artifact/org.springframework/spring-tx
+    implementation group: 'org.springframework', name: 'spring-tx', version: '5.0.7.RELEASE'
+
+    // spring jdbc
+    // https://mvnrepository.com/artifact/org.springframework/spring-jdbc
+    implementation group: 'org.springframework', name: 'spring-jdbc', version: '5.0.7.RELEASE'
+
+    // log4jdbc
+    // https://mvnrepository.com/artifact/org.bgee.log4jdbc-log4j2/log4jdbc-log4j2-jdbc4.1
+    implementation group: 'org.bgee.log4jdbc-log4j2', name: 'log4jdbc-log4j2-jdbc4.1', version: '1.16'
+
+    // javax servlet api
+    // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+    compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
+
+
 }
 
 test {

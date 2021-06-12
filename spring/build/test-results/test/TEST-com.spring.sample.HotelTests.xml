@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spring.sample.HotelTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-12T14:29:25" hostname="DESKTOP-CH6TFK5" time="0.01">
+  <properties/>
+  <testcase name="testExist" classname="com.spring.sample.HotelTests" time="0.01"/>
+  <system-out><![CDATA[INFO  HotelTests:24 - SampleHotel(chef=Chef())
+INFO  HotelTests:25 - ----------------
+INFO  HotelTests:26 - Chef()
+]]></system-out>
+  <system-err><![CDATA[Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+]]></system-err>
+</testsuite>
