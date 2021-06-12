@@ -94,8 +94,8 @@ root-context.xml
 servlet-context.xml
 
 폴더 구조
-src/webapp/WEB-INF/spring/appServlet/root-context.xml
-src/webapp/WEB-INF/spring/servlet-context.xml
+src/webapp/WEB-INF/spring/appServlet/servlet-context.xml
+src/webapp/WEB-INF/spring/root-context.xml
 ```
 
 
