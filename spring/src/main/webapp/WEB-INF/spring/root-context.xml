@@ -8,13 +8,14 @@
 
     <!-- Root Context : defines shared resource visible to all other web compoents -->
     <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
-        <!-- spring jdbc
-        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/mysql" />
-        -->
+        <!-- spring jdbc -->
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/spring" />
+
         <!-- log4jdbc -->
-        <property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy" />
-        <property name="jdbcUrl" value="jdbc:log4jdbc:mysql://127.0.0.1:3306/mysql" />
+<!--        <property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy" />-->
+<!--        <property name="jdbcUrl" value="jdbc:log4jdbc:mysql://127.0.0.1:3306/spring" />-->
+
         <property name="username" value="root" />
         <property name="password" value="qwe123!@#" />
     </bean>
@@ -29,9 +30,7 @@
     </bean>
 
     <mybatis-spring:scan base-package="com.spring.mapper" />
-
-    <context:component-scan base-package="com.spring.sample">
-
-    </context:component-scan>
+    <context:component-scan base-package="com.spring.sample" />
+    <context:component-scan base-package="com.spring.service" />
 
 </beans>
