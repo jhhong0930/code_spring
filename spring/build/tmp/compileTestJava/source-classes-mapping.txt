@@ -12,3 +12,5 @@ com/spring/sample/SampleTests.java
  com.spring.sample.SampleTests
 com/spring/service/BoardServiceTests.java
  com.spring.service.BoardServiceTests
+com/spring/controller/BoardControllerTests.java
+ com.spring.controller.BoardControllerTests

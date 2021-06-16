@@ -2,14 +2,14 @@ com/spring/domain/BoardVO.java
  com.spring.domain.BoardVO
 com/spring/mapper/BoardMapper.java
  com.spring.mapper.BoardMapper
-com/spring/exception/CommonExceptionAdvice.java
- com.spring.exception.CommonExceptionAdvice
+com/spring/service/BoardService.java
+ com.spring.service.BoardService
 com/spring/domain/TodoDTO.java
  com.spring.domain.TodoDTO
 com/spring/sample/Restaurant.java
  com.spring.sample.Restaurant
-com/spring/controller/SampleController.java
- com.spring.controller.SampleController
+com/spring/service/BoardServiceImpl.java
+ com.spring.service.BoardServiceImpl
 com/spring/domain/SampleDTOList.java
  com.spring.domain.SampleDTOList
 com/spring/sample/SampleHotel.java
@@ -20,7 +20,9 @@ com/spring/mapper/TimeMapper.java
  com.spring.mapper.TimeMapper
 com/spring/sample/Chef.java
  com.spring.sample.Chef
-com/spring/service/BoardService.java
- com.spring.service.BoardService
-com/spring/service/BoardServiceImpl.java
- com.spring.service.BoardServiceImpl
+com/spring/controller/SampleController.java
+ com.spring.controller.SampleController
+com/spring/exception/CommonExceptionAdvice.java
+ com.spring.exception.CommonExceptionAdvice
+com/spring/controller/BoardController.java
+ com.spring.controller.BoardController

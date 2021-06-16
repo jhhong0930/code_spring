@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spring.controller.BoardControllerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-16T01:31:41" hostname="DESKTOP-CH6TFK5" time="0.179">
+  <properties/>
+  <testcase name="testList" classname="com.spring.controller.BoardControllerTests" time="0.179"/>
+  <system-out><![CDATA[INFO  BoardController:28 - list
+INFO  BoardServiceImpl:44 - getList...............
+INFO  BoardControllerTests:36 - {list=[BoardVO(bno=2, title=새로 작성하는 글, content=새로 작성하는 내용, writer=newbie, regDate=Wed Jun 16 00:48:42 KST 2021, updateDate=Wed Jun 16 00:48:42 KST 2021), BoardVO(bno=3, title=새로 작성하는 글, content=새로 작성하는 내용, writer=newbie, regDate=Wed Jun 16 00:55:44 KST 2021, updateDate=Wed Jun 16 00:55:44 KST 2021), BoardVO(bno=4, title=테스트 새글 제목, content=테스트 새글 내용, writer=user00, regDate=Wed Jun 16 10:19:39 KST 2021, updateDate=Wed Jun 16 10:19:39 KST 2021)]}
+]]></system-out>
+  <system-err><![CDATA[Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+]]></system-err>
+</testsuite>
