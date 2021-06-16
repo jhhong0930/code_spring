@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spring.mapper.BoardMapperTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-16T15:08:56" hostname="DESKTOP-K25VU2U" time="0.058">
+  <properties/>
+  <testcase name="testGetSeq" classname="com.spring.mapper.BoardMapperTests" time="0.058"/>
+  <system-out><![CDATA[INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]
+INFO  GenericApplicationContext:590 - Refreshing org.springframework.context.support.GenericApplicationContext@32198a6c: startup date [Thu Jun 17 00:08:55 KST 2021]; root of context hierarchy
+INFO  BoardMapperTests:26 - 0
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

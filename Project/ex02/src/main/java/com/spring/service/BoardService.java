@@ -15,4 +15,6 @@ public interface BoardService {
 
     public List<BoardVO> getList();
 
+    public int getSeq();
+
 }

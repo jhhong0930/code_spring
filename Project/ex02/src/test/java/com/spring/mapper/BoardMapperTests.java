@@ -21,4 +21,9 @@ public class BoardMapperTests {
         mapper.getList().forEach(log::info);
     }
 
+    @Test
+    public void testGetSeq() {
+        log.info(mapper.getSeq());
+    }
+
 }

@@ -46,4 +46,9 @@ public class BoardServletImpl implements BoardService {
         log.info("getList..............");
         return mapper.getList();
     }
+
+    @Override
+    public int getSeq() {
+        return mapper.getSeq();
+    }
 }
