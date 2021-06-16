@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spring.controller.BoardControllerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-16T05:07:19" hostname="KWONWOOHEE" time="0.229">
+  <properties/>
+  <testcase name="testGetList" classname="com.spring.controller.BoardControllerTests" time="0.229"/>
+  <system-out><![CDATA[INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml]
+INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]
+INFO  GenericWebApplicationContext:590 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@34304e1e: startup date [Wed Jun 16 14:07:16 KST 2021]; root of context hierarchy
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/remove],methods=[POST]}" onto public java.lang.String com.spring.controller.BoardController.remove(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/get],methods=[GET]}" onto public void com.spring.controller.BoardController.get(java.lang.Long,org.springframework.ui.Model)
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/register],methods=[POST]}" onto public java.lang.String com.spring.controller.BoardController.register(com.spring.domain.BoardVO,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/list],methods=[GET]}" onto public void com.spring.controller.BoardController.list(org.springframework.ui.Model)
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/modify],methods=[POST]}" onto public java.lang.String com.spring.controller.BoardController.modify(com.spring.domain.BoardVO,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@34304e1e: startup date [Wed Jun 16 14:07:16 KST 2021]; root of context hierarchy
+INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@34304e1e: startup date [Wed Jun 16 14:07:16 KST 2021]; root of context hierarchy
+INFO  MockServletContext:438 - Initializing Spring FrameworkServlet ''
+INFO  TestDispatcherServlet:494 - FrameworkServlet '': initialization started
+INFO  TestDispatcherServlet:509 - FrameworkServlet '': initialization completed in 28 ms
+INFO  BoardController:26 - list
+INFO  BoardServletImpl:46 - getList..............
+INFO  BoardControllerTests:37 - {list=[BoardVO(bno=12, title=새로 작성하는 글, content=새로 작성하는 내용, writer=newbie, regDate=Tue Jun 15 11:30:42 KST 2021, updateDate=Tue Jun 15 11:30:42 KST 2021), BoardVO(bno=13, title=new title, content=new content, writer=newbie, regDate=Wed Jun 16 09:53:44 KST 2021, updateDate=Wed Jun 16 09:53:44 KST 2021), BoardVO(bno=14, title=�뀒�뒪�듃 �깉湲� �젣紐�, content=�뀒�뒪�듃 �깉湲� �궡�슜, writer=user00, regDate=Wed Jun 16 10:29:34 KST 2021, updateDate=Wed Jun 16 10:29:34 KST 2021), BoardVO(bno=15, title=Test new Title, content=Test new Content, writer=user00, regDate=Wed Jun 16 10:29:55 KST 2021, updateDate=Wed Jun 16 10:29:55 KST 2021), BoardVO(bno=16, title=Test new Title, content=Test new Content, writer=user00, regDate=Wed Jun 16 10:39:24 KST 2021, updateDate=Wed Jun 16 10:39:24 KST 2021), BoardVO(bno=17, title=�뀒�뒪�듃 �깉湲� �옉�꽦, content=Test new Content, writer=user00, regDate=Wed Jun 16 11:42:09 KST 2021, updateDate=Wed Jun 16 11:42:09 KST 2021), BoardVO(bno=18, title=�뀒�뒪�듃 �깉湲� �옉�꽦, content=Test new Content, writer=user00, regDate=Wed Jun 16 11:42:28 KST 2021, updateDate=Wed Jun 16 11:42:28 KST 2021), BoardVO(bno=19, title=�뀒�뒪�듃 �깉湲� �옉�꽦, content=Test new Content, writer=user00, regDate=Wed Jun 16 11:43:05 KST 2021, updateDate=Wed Jun 16 11:43:05 KST 2021), BoardVO(bno=20, title=�뀒�뒪�듃 �깉湲� �옉�꽦, content=Test new Content, writer=user00, regDate=Wed Jun 16 11:44:27 KST 2021, updateDate=Wed Jun 16 11:44:27 KST 2021), BoardVO(bno=21, title=테스트 제목, content=테스트 내용, writer=user00, regDate=Wed Jun 16 11:47:13 KST 2021, updateDate=Wed Jun 16 11:47:13 KST 2021), BoardVO(bno=22, title=�뀒�뒪�듃 �깉湲� �옉�꽦, content=Test new Content, writer=user00, regDate=Wed Jun 16 11:49:40 KST 2021, updateDate=Wed Jun 16 11:49:40 KST 2021)]}
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
