@@ -45,4 +45,9 @@ public class BoardServiceImpl implements BoardService {
         return mapper.getList();
     }
 
+    @Override
+    public int getSeq() {
+        return mapper.getSeq();
+    }
+
 }

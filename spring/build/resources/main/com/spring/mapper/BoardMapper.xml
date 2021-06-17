@@ -29,4 +29,8 @@
          where bno = #{bno}
     </update>
 
+    <select id="getSeq" resultType="int">
+        SELECT LAST_INSERT_ID()
+    </select>
+
 </mapper>
