@@ -10,7 +10,6 @@
     </div>
     <div class="card-body">
 
-        <form role="form" action="/board/register" method="post">
             <div class="form-group">
                 <label>Bno</label><input class="form-control" name="bno" value="<c:out value='${board.bno}'/>" readonly="readonly">
             </div>
@@ -31,10 +30,9 @@
             <button data-oper="list" class="btn btn-info">List</button>
 
             <form id="operForm" action="/board/modify" method="get">
-                <input type="hidden" id="bno" name="bno" value="<c:out value='$(board.bno}'/>">
+                <input type="hidden" id="bno" name="bno" value="<c:out value='${board.bno}'/>">
             </form>
 
-        </form>
     </div>
 </div>
 
