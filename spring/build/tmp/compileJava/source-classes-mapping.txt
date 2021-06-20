@@ -24,5 +24,9 @@ com/spring/mapper/BoardMapper.java
  com.spring.mapper.BoardMapper
 com/spring/service/BoardService.java
  com.spring.service.BoardService
+com/spring/domain/PageDTO.java
+ com.spring.domain.PageDTO
 com/spring/controller/BoardController.java
  com.spring.controller.BoardController
+com/spring/domain/Criteria.java
+ com.spring.domain.Criteria

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spring.mapper.BoardMapperTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-19T13:56:53" hostname="DESKTOP-CH6TFK5" time="0.116">
+  <properties/>
+  <testcase name="testPaging" classname="com.spring.mapper.BoardMapperTests" time="0.116"/>
+  <system-out><![CDATA[INFO  BoardMapperTests:70 - BoardVO(bno=15, title=새로 작성하는 글, content=새로 작성하는 내용, writer=newbie, regDate=Thu Jun 17 10:01:23 KST 2021, updateDate=Thu Jun 17 10:01:23 KST 2021)
+INFO  BoardMapperTests:70 - BoardVO(bno=14, title=test123, content=123123123, writer=test123, regDate=Thu Jun 17 09:58:22 KST 2021, updateDate=Thu Jun 17 09:58:22 KST 2021)
+INFO  BoardMapperTests:70 - BoardVO(bno=13, title=test123, content=123123123, writer=test123, regDate=Thu Jun 17 09:58:15 KST 2021, updateDate=Thu Jun 17 09:58:15 KST 2021)
+INFO  BoardMapperTests:70 - BoardVO(bno=12, title=test123, content=123123123, writer=test123, regDate=Thu Jun 17 09:58:03 KST 2021, updateDate=Thu Jun 17 09:58:03 KST 2021)
+INFO  BoardMapperTests:70 - BoardVO(bno=11, title=새로 작성하는 글, content=새로 작성하는 내용, writer=newbie, regDate=Thu Jun 17 09:48:58 KST 2021, updateDate=Thu Jun 17 09:48:58 KST 2021)
+INFO  BoardMapperTests:70 - BoardVO(bno=10, title=111111111, content=22222222222, writer=333, regDate=Thu Jun 17 00:26:18 KST 2021, updateDate=Thu Jun 17 00:26:18 KST 2021)
+INFO  BoardMapperTests:70 - BoardVO(bno=9, title=[추가모집] 오프라인 알고리즘 스터디 모집, content=123123, writer=123123, regDate=Wed Jun 16 23:57:19 KST 2021, updateDate=Wed Jun 16 23:57:19 KST 2021)
+INFO  BoardMapperTests:70 - BoardVO(bno=8, title=무야호 테스트, content=무야호무야호, writer=muyaho, regDate=Wed Jun 16 23:43:38 KST 2021, updateDate=Wed Jun 16 23:43:38 KST 2021)
+INFO  BoardMapperTests:70 - BoardVO(bno=7, title=무우야아호오, content=무우야아호오, writer=user0112, regDate=Wed Jun 16 23:29:44 KST 2021, updateDate=Wed Jun 16 23:29:44 KST 2021)
+INFO  BoardMapperTests:70 - BoardVO(bno=6, title=무야호, content=무야호, writer=user011, regDate=Wed Jun 16 23:13:49 KST 2021, updateDate=Wed Jun 16 23:13:49 KST 2021)
+]]></system-out>
+  <system-err><![CDATA[Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+]]></system-err>
+</testsuite>

@@ -1,6 +1,8 @@
 package com.spring.controller;
 
 import com.spring.domain.BoardVO;
+import com.spring.domain.Criteria;
+import com.spring.domain.PageDTO;
 import com.spring.service.BoardService;
 import lombok.AllArgsConstructor;
 import lombok.Setter;
@@ -24,9 +26,11 @@ public class BoardController {
     private BoardService service;
 
     @GetMapping("/list")
-    public void list(Model model) {
-        log.info("list");
-        model.addAttribute("list", service.getList());
+    public void list(Criteria cri, Model model) {
+        log.info("list: " + cri);
+//        cri.setPageNum(cri.getPageNum() * cri.getAmount());
+        model.addAttribute("list", service.getList(cri));
+        model.addAttribute("pageMaker", new PageDTO(cri, 123));
     }
 
     @PostMapping("/register")

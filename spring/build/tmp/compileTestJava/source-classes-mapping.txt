@@ -4,13 +4,13 @@ com/spring/persistence/TimeMapperTests.java
  com.spring.persistence.TimeMapperTests
 com/spring/sample/HotelTests.java
  com.spring.sample.HotelTests
-com/spring/mapper/BoardMapperTests.java
- com.spring.mapper.BoardMapperTests
+com/spring/service/BoardServiceTests.java
+ com.spring.service.BoardServiceTests
 com/spring/persistence/DataSourceTests.java
  com.spring.persistence.DataSourceTests
 com/spring/sample/SampleTests.java
  com.spring.sample.SampleTests
-com/spring/service/BoardServiceTests.java
- com.spring.service.BoardServiceTests
 com/spring/controller/BoardControllerTests.java
  com.spring.controller.BoardControllerTests
+com/spring/mapper/BoardMapperTests.java
+ com.spring.mapper.BoardMapperTests
