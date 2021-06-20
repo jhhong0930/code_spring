@@ -70,4 +70,15 @@ public class BoardMapperTests {
         list.forEach(board -> log.info(board));
     }
 
+    @Test
+    public void testSearch() {
+        Criteria criteria = new Criteria();
+        criteria.setKeyword("무");
+        criteria.setType("T");
+
+        List<BoardVO> list = mapper.getListWithPaging(criteria);
+
+        list.forEach(board -> log.info(board));
+    }
+
 }

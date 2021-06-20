@@ -13,6 +13,8 @@ public interface BoardMapper {
 
     public List<BoardVO> getListWithPaging(Criteria cri);
 
+    public List<BoardVO> getListWithPagingByKeyword(Criteria cri);
+
     public void insert(BoardVO board);
 
     public void insertSelectKey(BoardVO board);
@@ -24,4 +26,7 @@ public interface BoardMapper {
     public int update(BoardVO board);
 
     public int getSeq();
+
+    public int getTotalCount(Criteria cri);
+
 }

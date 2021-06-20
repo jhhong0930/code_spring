@@ -19,4 +19,6 @@ public interface BoardService {
 
     public int getSeq();
 
+    public int getTotal(Criteria cri);
+
 }
