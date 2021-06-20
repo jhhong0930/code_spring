@@ -1,21 +1,29 @@
 package com.spring.mapper;
 
 import com.spring.domain.BoardVO;
+import com.spring.domain.Criteria;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
 public interface BoardMapper {
+
+    //    @Select("SELECT * FROM SPRING.BOARD WHERE BNO > 0")
     public List<BoardVO> getList();
 
-    void insert(BoardVO board);
+    public List<BoardVO> getListWithPaging(Criteria cri);
 
-    void insertSelectKey(BoardVO board);
+    public void insert(BoardVO board);
 
-    BoardVO read(Long bno);
+    public void insertSelectKey(BoardVO board);
 
-    int delete(Long bno);
+    public BoardVO read(Long bno);
 
-    int update(BoardVO board);
+    public int delete(Long bno);
 
-    int getSeq();
+    public int update(BoardVO board);
+
+    public int getSeq();
+
+    int getTotalCount();
 }
