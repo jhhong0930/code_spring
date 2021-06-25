@@ -1,32 +1,46 @@
 com/spring/domain/BoardVO.java
  com.spring.domain.BoardVO
-com/spring/exception/CommonExceptionAdvice.java
- com.spring.exception.CommonExceptionAdvice
-com/spring/controller/SampleController.java
- com.spring.controller.SampleController
+com/spring/mapper/BoardMapper.java
+ com.spring.mapper.BoardMapper
+com/spring/service/BoardService.java
+ com.spring.service.BoardService
 com/spring/domain/TodoDTO.java
  com.spring.domain.TodoDTO
+com/spring/domain/Criteria.java
+ com.spring.domain.Criteria
 com/spring/sample/Restaurant.java
  com.spring.sample.Restaurant
-com/spring/sample/Chef.java
- com.spring.sample.Chef
+com/spring/service/BoardServiceImpl.java
+ com.spring.service.BoardServiceImpl
 com/spring/domain/SampleDTOList.java
  com.spring.domain.SampleDTOList
 com/spring/sample/SampleHotel.java
  com.spring.sample.SampleHotel
 com/spring/domain/SampleDTO.java
  com.spring.domain.SampleDTO
-com/spring/mapper/TimeMapper.java
- com.spring.mapper.TimeMapper
-com/spring/service/BoardServiceImpl.java
- com.spring.service.BoardServiceImpl
-com/spring/mapper/BoardMapper.java
- com.spring.mapper.BoardMapper
-com/spring/service/BoardService.java
- com.spring.service.BoardService
 com/spring/domain/PageDTO.java
  com.spring.domain.PageDTO
+com/spring/mapper/TimeMapper.java
+ com.spring.mapper.TimeMapper
+com/spring/sample/Chef.java
+ com.spring.sample.Chef
 com/spring/controller/BoardController.java
  com.spring.controller.BoardController
-com/spring/domain/Criteria.java
- com.spring.domain.Criteria
+com/spring/exception/CommonExceptionAdvice.java
+ com.spring.exception.CommonExceptionAdvice
+com/spring/domain/SampleVO.java
+ com.spring.domain.SampleVO
+com/spring/domain/Ticket.java
+ com.spring.domain.Ticket
+com/spring/controller/SampleController.java
+ com.spring.controller.SampleController
+com/spring/domain/ReplyVO.java
+ com.spring.domain.ReplyVO
+com/spring/mapper/ReplyMapper.java
+ com.spring.mapper.ReplyMapper
+com/spring/service/ReplySerivceImpl.java
+ com.spring.service.ReplySerivceImpl
+com/spring/controller/ReplyController.java
+ com.spring.controller.ReplyController
+com/spring/service/ReplyService.java
+ com.spring.service.ReplyService

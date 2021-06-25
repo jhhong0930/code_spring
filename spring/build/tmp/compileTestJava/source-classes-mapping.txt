@@ -1,3 +1,5 @@
+com/spring/sample/SampleTests.java
+ com.spring.sample.SampleTests
 com/spring/persistence/JDBCTests.java
  com.spring.persistence.JDBCTests
 com/spring/persistence/TimeMapperTests.java
@@ -6,11 +8,11 @@ com/spring/sample/HotelTests.java
  com.spring.sample.HotelTests
 com/spring/controller/BoardControllerTests.java
  com.spring.controller.BoardControllerTests
-com/spring/persistence/DataSourceTests.java
- com.spring.persistence.DataSourceTests
-com/spring/sample/SampleTests.java
- com.spring.sample.SampleTests
-com/spring/service/BoardServiceTests.java
- com.spring.service.BoardServiceTests
 com/spring/mapper/BoardMapperTests.java
  com.spring.mapper.BoardMapperTests
+com/spring/persistence/DataSourceTests.java
+ com.spring.persistence.DataSourceTests
+com/spring/service/BoardServiceTests.java
+ com.spring.service.BoardServiceTests
+com/spring/mapper/ReplyMapperTest.java
+ com.spring.mapper.ReplyMapperTest
