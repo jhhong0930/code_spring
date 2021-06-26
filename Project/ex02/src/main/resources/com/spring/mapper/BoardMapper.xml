@@ -33,4 +33,13 @@
     <select id="getSeq" resultType="int">
         SELECT LAST_INSERT_ID()
     </select>
+
+    <select id="getListWithPaging" resultType="com.spring.domain.BoardVO">
+        <![CDATA[
+        select R1.* FROM(
+            SELECT * FROM tbl_board order by bno desc
+        ) R1
+        LIMIT #{pageNum}, #{amount};
+        ]]>
+    </select>
 </mapper>

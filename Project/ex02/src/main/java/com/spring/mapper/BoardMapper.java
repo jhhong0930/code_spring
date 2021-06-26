@@ -1,11 +1,14 @@
 package com.spring.mapper;
 
 import com.spring.domain.BoardVO;
+import com.spring.domain.Criteria;
 
 import java.util.List;
 
 public interface BoardMapper {
     public List<BoardVO> getList();
+
+    List<BoardVO> getListWithPaging(Criteria criteria);
 
     void insert(BoardVO board);
 

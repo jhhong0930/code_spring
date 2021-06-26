@@ -3,6 +3,8 @@ package com.spring.service;
 import static org.junit.Assert.assertNotNull;
 
 import com.spring.domain.BoardVO;
+import com.spring.domain.Criteria;
+import com.spring.mapper.BoardMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,8 +40,10 @@ public class BoardServiceTests {
 
     @Test
     public void testGetList() {
-        service.getList().forEach(boardVO -> log.info(boardVO));
+//        service.getList().forEach(boardVO -> log.info(boardVO));
+        service.getList(new Criteria(2, 10)).forEach(board -> log.info(board));
     }
+
 
     @Test
     public void testGet() {
