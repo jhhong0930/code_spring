@@ -2,7 +2,6 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-
 <mapper namespace="com.spring.mapper.BoardMapper">
 
     <select id="getList" resultType="com.spring.domain.BoardVO">
@@ -23,11 +22,11 @@
 
     <update id="update">
         update tbl_board
-        set title = #{title},
-            content = #{content},
-            writer = #{writer},
-            updateDate = now()
-        where bno = #{bno}
+           set title = #{title},
+               content = #{content},
+               writer = #{writer},
+               updateDate = now()
+         where bno = #{bno}
     </update>
 
     <select id="getSeq" resultType="int">
@@ -35,6 +34,7 @@
     </select>
 
     <select id="getListWithPaging" resultType="com.spring.domain.BoardVO">
+<<<<<<< HEAD
         <![CDATA[
         select R1.* FROM(
             SELECT * FROM tbl_board order by bno desc
@@ -43,3 +43,10 @@
         ]]>
     </select>
 </mapper>
+=======
+        SELECT * FROM tbl_board order by bno desc
+        LIMIT ${amount} offset ${(pageNum -1) *10}
+    </select>
+
+</mapper>
+>>>>>>> 7589bcba3e5f48d6eba3af0c73c9fb7ab29a4814

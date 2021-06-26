@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spring.controller.BoardControllerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-19T14:02:50" hostname="DESKTOP-K25VU2U" time="0.124">
+  <properties/>
+  <testcase name="testListPaging" classname="com.spring.controller.BoardControllerTests" time="0.124"/>
+  <system-out><![CDATA[INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml]
+INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]
+INFO  GenericWebApplicationContext:590 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2d333574: startup date [Sat Jun 19 23:02:49 KST 2021]; root of context hierarchy
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/remove],methods=[POST]}" onto public java.lang.String com.spring.controller.BoardController.remove(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/get || /board/modify],methods=[GET]}" onto public void com.spring.controller.BoardController.get(java.lang.Long,org.springframework.ui.Model)
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/register],methods=[GET]}" onto public void com.spring.controller.BoardController.register()
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/register],methods=[POST]}" onto public java.lang.String com.spring.controller.BoardController.register(com.spring.domain.BoardVO,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/list],methods=[GET]}" onto public void com.spring.controller.BoardController.list(com.spring.domain.Criteria,org.springframework.ui.Model)
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/modify],methods=[POST]}" onto public java.lang.String com.spring.controller.BoardController.modify(com.spring.domain.BoardVO,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2d333574: startup date [Sat Jun 19 23:02:49 KST 2021]; root of context hierarchy
+INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2d333574: startup date [Sat Jun 19 23:02:49 KST 2021]; root of context hierarchy
+INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+INFO  MockServletContext:438 - Initializing Spring FrameworkServlet ''
+INFO  TestDispatcherServlet:494 - FrameworkServlet '': initialization started
+INFO  TestDispatcherServlet:509 - FrameworkServlet '': initialization completed in 10 ms
+INFO  BoardController:27 - list
+INFO  BoardServletImpl:35 - get List With Criteria: Criteria(pageNum=2, amount=50)
+INFO  BoardControllerTests:86 - {criteria=Criteria(pageNum=2, amount=50), org.springframework.validation.BindingResult.criteria=org.springframework.validation.BeanPropertyBindingResult: 0 errors, list=[BoardVO(bno=15, title=fdsa, content=fdsa, writer=fdsa, regDate=Thu Jun 17 00:10:27 KST 2021, updateDate=Thu Jun 17 00:10:27 KST 2021), BoardVO(bno=14, title=title, content=content, writer=writer, regDate=Thu Jun 17 00:07:36 KST 2021, updateDate=Thu Jun 17 00:07:36 KST 2021), BoardVO(bno=13, title=fdsa, content=fafdaf, writer=dsafdsa, regDate=Wed Jun 16 23:57:13 KST 2021, updateDate=Wed Jun 16 23:57:13 KST 2021), BoardVO(bno=12, title=fdsaf, content=dasfdasf, writer=dsafs, regDate=Wed Jun 16 23:56:58 KST 2021, updateDate=Wed Jun 16 23:56:58 KST 2021), BoardVO(bno=11, title=fdsa, content=fdsa, writer=fdsa, regDate=Wed Jun 16 23:50:16 KST 2021, updateDate=Wed Jun 16 23:50:16 KST 2021), BoardVO(bno=10, title=resr, content=resr, writer=resr, regDate=Wed Jun 16 23:47:36 KST 2021, updateDate=Wed Jun 16 23:47:36 KST 2021), BoardVO(bno=9, title=fda, content=dfa, writer=dfsa, regDate=Wed Jun 16 23:45:26 KST 2021, updateDate=Wed Jun 16 23:45:26 KST 2021), BoardVO(bno=8, title=test TITLE JSP, content=test, writer=test, regDate=Wed Jun 16 23:42:43 KST 2021, updateDate=Wed Jun 16 23:42:43 KST 2021), BoardVO(bno=7, title=테, content=, writer=, regDate=Wed Jun 16 23:42:29 KST 2021, updateDate=Wed Jun 16 23:42:29 KST 2021), BoardVO(bno=6, title=fdasfda, content=fdsafdas, writer=fdasfdas, regDate=Wed Jun 16 23:31:39 KST 2021, updateDate=Wed Jun 16 23:31:39 KST 2021), BoardVO(bno=5, title=테스트 타이틀, content=테스트 컨텐트, writer=테스트 라이터, regDate=Wed Jun 16 23:12:24 KST 2021, updateDate=Wed Jun 16 23:12:24 KST 2021), BoardVO(bno=4, title=test TITLE JSP, content=?????¤??¸ ??´??? JSP, writer=?????¤??¸ Writer JSP, regDate=Wed Jun 16 23:09:24 KST 2021, updateDate=Wed Jun 16 23:09:24 KST 2021), BoardVO(bno=3, title=new, content=new, writer=user00, regDate=Wed Jun 16 22:42:33 KST 2021, updateDate=Wed Jun 16 22:42:33 KST 2021), BoardVO(bno=2, title=new, content=new, writer=user00, regDate=Wed Jun 16 21:28:36 KST 2021, updateDate=Wed Jun 16 21:28:36 KST 2021)]}
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

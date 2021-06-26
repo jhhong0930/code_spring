@@ -31,6 +31,7 @@ public class BoardMapperTests {
     }
 
     @Test
+<<<<<<< HEAD
     public void testInsert() {
 
         BoardVO board = new BoardVO();
@@ -47,10 +48,34 @@ public class BoardMapperTests {
         Criteria criteria = new Criteria();
         criteria.setPageNum(1 * 10);
         criteria.setAmount(10);
-
+=======
+    public void testPaging() {
+        Criteria criteria = new Criteria();
+        criteria.setAmount(10);
+        criteria.setPageNum(1*criteria.getAmount());
         List<BoardVO> list = mapper.getListWithPaging(criteria);
 
         list.forEach(board -> log.info(board));
     }
 
+    @Test
+    public void testGetTotalCount() {
+        log.info(mapper.getTotalCount());
+    }
+
+    @Test
+    public void testSearch() {
+        Criteria criteria = new Criteria();
+        criteria.setKeyword("fa");
+        criteria.setType("C");
+>>>>>>> 7589bcba3e5f48d6eba3af0c73c9fb7ab29a4814
+
+        List<BoardVO> list = mapper.getListWithPaging(criteria);
+
+        list.forEach(board -> log.info(board));
+    }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 7589bcba3e5f48d6eba3af0c73c9fb7ab29a4814
 }

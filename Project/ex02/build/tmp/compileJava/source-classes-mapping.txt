@@ -1,9 +1,12 @@
 com/spring/domain/BoardVO.java
  com.spring.domain.BoardVO
+com/spring/service/BoardServiceImpl.java
+ com.spring.service.BoardServiceImpl
 com/spring/mapper/BoardMapper.java
  com.spring.mapper.BoardMapper
 com/spring/service/BoardService.java
  com.spring.service.BoardService
+<<<<<<< HEAD
 com/spring/domain/Criteria.java
  com.spring.domain.Criteria
 com/spring/service/SampleServiceImpl.java
@@ -18,3 +21,11 @@ com/spring/controller/BoardController.java
  com.spring.controller.BoardController
 com/spring/aop/LogAdvice.java
  com.spring.aop.LogAdvice
+=======
+com/spring/domain/PageDTO.java
+ com.spring.domain.PageDTO
+com/spring/controller/BoardController.java
+ com.spring.controller.BoardController
+com/spring/domain/Criteria.java
+ com.spring.domain.Criteria
+>>>>>>> 7589bcba3e5f48d6eba3af0c73c9fb7ab29a4814

@@ -27,8 +27,13 @@ public class BoardController {
     public void list(Criteria cri, Model model) {
         log.info("list: " + cri);
         model.addAttribute("list", service.getList(cri));
+<<<<<<< HEAD
         System.out.println(new PageDTO(cri, 123));
         model.addAttribute("pageMaker", new PageDTO(cri, 123));
+=======
+        model.addAttribute("pageMaker", new PageDTO(cri, service.getTotalCount()));
+        log.info(service.getTotalCount());
+>>>>>>> 7589bcba3e5f48d6eba3af0c73c9fb7ab29a4814
     }
 
     @GetMapping("/register")
