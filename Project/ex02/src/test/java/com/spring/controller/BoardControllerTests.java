@@ -87,6 +87,11 @@ public class BoardControllerTests{
                 MockMvcRequestBuilders.get("/board/list")
                 .param("pageNum", "2")
                 .param("amount", "50"))
+<<<<<<< HEAD
+                .andReturn().getModelAndView().getModelMap()
+        );
+=======
                 .andReturn().getModelAndView().getModelMap());
+>>>>>>> 7589bcba3e5f48d6eba3af0c73c9fb7ab29a4814
     }
 }

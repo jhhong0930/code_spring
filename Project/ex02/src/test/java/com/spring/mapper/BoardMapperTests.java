@@ -31,6 +31,24 @@ public class BoardMapperTests {
     }
 
     @Test
+<<<<<<< HEAD
+    public void testInsert() {
+
+        BoardVO board = new BoardVO();
+        board.setTitle("새로 작성하는 글");
+        board.setContent("새로 작성하는 내용");
+        board.setWriter("newUser");
+
+        mapper.insert(board);
+        log.info(board);
+    }
+
+    @Test
+    public void testPaging() {
+        Criteria criteria = new Criteria();
+        criteria.setPageNum(1 * 10);
+        criteria.setAmount(10);
+=======
     public void testPaging() {
         Criteria criteria = new Criteria();
         criteria.setAmount(10);
@@ -50,9 +68,14 @@ public class BoardMapperTests {
         Criteria criteria = new Criteria();
         criteria.setKeyword("fa");
         criteria.setType("C");
+>>>>>>> 7589bcba3e5f48d6eba3af0c73c9fb7ab29a4814
 
         List<BoardVO> list = mapper.getListWithPaging(criteria);
 
         list.forEach(board -> log.info(board));
     }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 7589bcba3e5f48d6eba3af0c73c9fb7ab29a4814
 }

@@ -34,8 +34,19 @@
     </select>
 
     <select id="getListWithPaging" resultType="com.spring.domain.BoardVO">
+<<<<<<< HEAD
+        <![CDATA[
+        select R1.* FROM(
+            SELECT * FROM tbl_board order by bno desc
+        ) R1
+        LIMIT #{pageNum}, #{amount};
+        ]]>
+    </select>
+</mapper>
+=======
         SELECT * FROM tbl_board order by bno desc
         LIMIT ${amount} offset ${(pageNum -1) *10}
     </select>
 
 </mapper>
+>>>>>>> 7589bcba3e5f48d6eba3af0c73c9fb7ab29a4814
