@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spring.service.SampleServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-01T01:30:16" hostname="DESKTOP-CH6TFK5" time="0.018">
+  <properties/>
+  <testcase name="testAdd" classname="com.spring.service.SampleServiceTest" time="0.018"/>
+  <system-out><![CDATA[INFO  LogAdvice:40 - Target: com.spring.service.SampleServiceImpl@1ac86703
+INFO  LogAdvice:41 - Param: [123, 456]
+INFO  LogAdvice:20 - =============================
+INFO  LogAdvice:25 - str1: 123
+INFO  LogAdvice:26 - str2: 456
+INFO  LogAdvice:54 - TIME: 5
+INFO  SampleServiceTest:27 - 579
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]
+[Test worker] INFO org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@77f76701: startup date [Thu Jul 01 10:30:15 KST 2021]; root of context hierarchy
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[Test worker] INFO jdbc.connection - 1. Connection opened
+[Test worker] INFO jdbc.audit - 1. Connection.new Connection returned 
+[Test worker] INFO jdbc.audit - 1. Connection.getNetworkTimeout() returned 0
+[Test worker] INFO jdbc.audit - 1. Connection.isReadOnly() returned false
+[Test worker] INFO jdbc.audit - 1. Connection.getAutoCommit() returned true
+[Test worker] INFO jdbc.audit - 1. Connection.isValid(1) returned true
+[Test worker] INFO jdbc.audit - 1. Connection.getTransactionIsolation() returned 4
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[HikariPool-1 connection adder] INFO jdbc.connection - 2. Connection opened
+[HikariPool-1 connection adder] INFO jdbc.audit - 2. Connection.new Connection returned 
+[HikariPool-1 connection adder] INFO jdbc.audit - 2. Connection.isReadOnly() returned false
+[HikariPool-1 connection adder] INFO jdbc.audit - 2. Connection.getAutoCommit() returned true
+[HikariPool-1 connection adder] INFO jdbc.connection - 3. Connection opened
+[HikariPool-1 connection adder] INFO jdbc.audit - 3. Connection.new Connection returned 
+[HikariPool-1 connection adder] INFO jdbc.audit - 3. Connection.isReadOnly() returned false
+[HikariPool-1 connection adder] INFO jdbc.audit - 3. Connection.getAutoCommit() returned true
+[HikariPool-1 connection adder] INFO jdbc.connection - 4. Connection opened
+[HikariPool-1 connection adder] INFO jdbc.audit - 4. Connection.new Connection returned 
+[HikariPool-1 connection adder] INFO jdbc.audit - 4. Connection.isReadOnly() returned false
+[HikariPool-1 connection adder] INFO jdbc.audit - 4. Connection.getAutoCommit() returned true
+[HikariPool-1 connection adder] INFO jdbc.connection - 5. Connection opened
+[HikariPool-1 connection adder] INFO jdbc.audit - 5. Connection.new Connection returned 
+[HikariPool-1 connection adder] INFO jdbc.audit - 5. Connection.isReadOnly() returned false
+[HikariPool-1 connection adder] INFO jdbc.audit - 5. Connection.getAutoCommit() returned true
+[HikariPool-1 connection adder] INFO jdbc.connection - 6. Connection opened
+[HikariPool-1 connection adder] INFO jdbc.audit - 6. Connection.new Connection returned 
+[HikariPool-1 connection adder] INFO jdbc.audit - 6. Connection.isReadOnly() returned false
+[HikariPool-1 connection adder] INFO jdbc.audit - 6. Connection.getAutoCommit() returned true
+[HikariPool-1 connection adder] INFO jdbc.connection - 7. Connection opened
+[HikariPool-1 connection adder] INFO jdbc.audit - 7. Connection.new Connection returned 
+[HikariPool-1 connection adder] INFO jdbc.audit - 7. Connection.isReadOnly() returned false
+[HikariPool-1 connection adder] INFO jdbc.audit - 7. Connection.getAutoCommit() returned true
+[HikariPool-1 connection adder] INFO jdbc.connection - 8. Connection opened
+[HikariPool-1 connection adder] INFO jdbc.audit - 8. Connection.new Connection returned 
+[HikariPool-1 connection adder] INFO jdbc.audit - 8. Connection.isReadOnly() returned false
+[HikariPool-1 connection adder] INFO jdbc.audit - 8. Connection.getAutoCommit() returned true
+[HikariPool-1 connection adder] INFO jdbc.connection - 9. Connection opened
+[HikariPool-1 connection adder] INFO jdbc.audit - 9. Connection.new Connection returned 
+[HikariPool-1 connection adder] INFO jdbc.audit - 9. Connection.isReadOnly() returned false
+[HikariPool-1 connection adder] INFO jdbc.audit - 9. Connection.getAutoCommit() returned true
+[HikariPool-1 connection adder] INFO jdbc.connection - 10. Connection opened
+[HikariPool-1 connection adder] INFO jdbc.audit - 10. Connection.new Connection returned 
+[HikariPool-1 connection adder] INFO jdbc.audit - 10. Connection.isReadOnly() returned false
+[HikariPool-1 connection adder] INFO jdbc.audit - 10. Connection.getAutoCommit() returned true
+]]></system-err>
+</testsuite>
