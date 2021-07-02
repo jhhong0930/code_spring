@@ -1,0 +1,8 @@
+com/spring/persistence/JDBCTests.java
+ com.spring.persistence.JDBCTests
+com/spring/persistence/DataSourceTests.java
+ com.spring.persistence.DataSourceTests
+com/spring/mapper/BoardMapperTests.java
+ com.spring.mapper.BoardMapperTests
+com/spring/controller/BoardControllerTest.java
+ com.spring.controller.BoardControllerTest

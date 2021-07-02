@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spring.controller.BoardControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-02T04:43:02" hostname="KWONWOOHEE" time="0.281">
+  <properties/>
+  <testcase name="testRead" classname="com.spring.controller.BoardControllerTest" time="0.281"/>
+  <system-out><![CDATA[INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]
+INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml]
+INFO  GenericWebApplicationContext:590 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@55d1e8cc: startup date [Fri Jul 02 13:42:59 KST 2021]; root of context hierarchy
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/update],methods=[POST]}" onto public java.lang.String com.spring.controller.BoardController.update(com.spring.domain.BoardVO)
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/delete],methods=[POST]}" onto public java.lang.String com.spring.controller.BoardController.delete(int)
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/get || /board/update],methods=[GET]}" onto public void com.spring.controller.BoardController.read(org.springframework.ui.Model,int)
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/insert],methods=[POST]}" onto public java.lang.String com.spring.controller.BoardController.insert(com.spring.domain.BoardVO)
+INFO  RequestMappingHandlerMapping:547 - Mapped "{[/board/list],methods=[GET]}" onto public void com.spring.controller.BoardController.getList(org.springframework.ui.Model)
+INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@55d1e8cc: startup date [Fri Jul 02 13:42:59 KST 2021]; root of context hierarchy
+INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@55d1e8cc: startup date [Fri Jul 02 13:42:59 KST 2021]; root of context hierarchy
+INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+INFO  MockServletContext:438 - Initializing Spring FrameworkServlet ''
+INFO  TestDispatcherServlet:494 - FrameworkServlet '': initialization started
+INFO  TestDispatcherServlet:509 - FrameworkServlet '': initialization completed in 26 ms
+INFO  BoardControllerTest:46 - {board=null}
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

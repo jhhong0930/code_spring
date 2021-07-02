@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.mapper.BoardMapper">
+    <insert id="insert">
+        INSERT INTO tbl_board(title, content, writer) VALUES (#{title}, #{content}, #{writer})
+    </insert>
+
+    <select id="read" resultType="com.spring.domain.BoardVO">
+        SELECT * FROM tbl_board WHERE bno = #{bno}
+    </select>
+
+    <select id="getList" resultType="com.spring.domain.BoardVO">
+        SELECT * FROM tbl_board
+    </select>
+
+    <update id="update">
+        update tbl_board set title=#{title}, content=#{content}, writer = #{writer} where bno = #{bno}
+    </update>
+
+    <delete id="delete">
+        DELETE FROM tbl_board WHERE bno = #{bno}
+    </delete>
+</mapper>
