@@ -4,10 +4,6 @@ import static org.junit.Assert.assertNotNull;
 
 import com.spring.domain.BoardVO;
 import com.spring.domain.Criteria;
-<<<<<<< HEAD
-import com.spring.mapper.BoardMapper;
-=======
->>>>>>> 7589bcba3e5f48d6eba3af0c73c9fb7ab29a4814
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,13 +39,8 @@ public class BoardServiceTests {
 
     @Test
     public void testGetList() {
-<<<<<<< HEAD
-//        service.getList().forEach(boardVO -> log.info(boardVO));
-        service.getList(new Criteria(2, 10)).forEach(board -> log.info(board));
-=======
         Criteria criteria = new Criteria();
         service.getList(criteria).forEach(boardVO -> log.info(boardVO));
->>>>>>> 7589bcba3e5f48d6eba3af0c73c9fb7ab29a4814
     }
 
 
