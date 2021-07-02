@@ -18,3 +18,5 @@ com/spring/mapper/ReplyMapperTest.java
  com.spring.mapper.ReplyMapperTest
 com/spring/service/SampleServiceTest.java
  com.spring.service.SampleServiceTest
+com/spring/service/SampleTxServiceTest.java
+ com.spring.service.SampleTxServiceTest

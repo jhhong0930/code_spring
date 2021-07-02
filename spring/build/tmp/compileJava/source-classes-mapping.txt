@@ -50,3 +50,11 @@ com/spring/controller/SampleController.java
  com.spring.controller.SampleController
 com/spring/aop/LogAdvice.java
  com.spring.aop.LogAdvice
+com/spring/service/SampleTxService.java
+ com.spring.service.SampleTxService
+com/spring/mapper/Sample2Mapper.java
+ com.spring.mapper.Sample2Mapper
+com/spring/mapper/Sample1Mapper.java
+ com.spring.mapper.Sample1Mapper
+com/spring/service/SampleTxServiceImpl.java
+ com.spring.service.SampleTxServiceImpl
