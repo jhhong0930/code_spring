@@ -1,0 +1,10 @@
+com/spring/domain/BoardVO.java
+ com.spring.domain.BoardVO
+com/spring/domain/Criteria.java
+ com.spring.domain.Criteria
+com/spring/domain/ReplyVO.java
+ com.spring.domain.ReplyVO
+com/spring/domain/PageDTO.java
+ com.spring.domain.PageDTO
+com/spring/mapper/ReplyMapper.java
+ com.spring.mapper.ReplyMapper

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spring.mapper.ReplyMapperTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-29T05:10:16" hostname="KWONWOOHEE" time="0.101">
+  <properties/>
+  <testcase name="getListWithPaging" classname="com.spring.mapper.ReplyMapperTests" time="0.101"/>
+  <system-out><![CDATA[INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/spring/root-context.xml]
+INFO  GenericApplicationContext:590 - Refreshing org.springframework.context.support.GenericApplicationContext@13506ad1: startup date [Tue Jun 29 14:10:13 KST 2021]; root of context hierarchy
+INFO  ReplyMapperTests:74 - ReplyVO(rno=10, bno=500, reply=Update Reply, replyer=replyer10, replyDate=Tue Jun 29 10:35:34 KST 2021, updateDate=Tue Jun 29 14:03:21 KST 2021)
+INFO  ReplyMapperTests:74 - ReplyVO(rno=5, bno=500, reply=댓글 테스트5, replyer=replyer5, replyDate=Tue Jun 29 10:35:34 KST 2021, updateDate=Tue Jun 29 10:35:34 KST 2021)
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
