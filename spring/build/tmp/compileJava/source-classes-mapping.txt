@@ -58,3 +58,7 @@ com/spring/mapper/Sample1Mapper.java
  com.spring.mapper.Sample1Mapper
 com/spring/service/SampleTxServiceImpl.java
  com.spring.service.SampleTxServiceImpl
+com/spring/controller/UploadController.java
+ com.spring.controller.UploadController
+com/spring/domain/AttachFileDTO.java
+ com.spring.domain.AttachFileDTO
